@@ -1,8 +1,10 @@
-var x = 1;
-var y = x;
+'use strict'
+let x = 1;
+let y = x;
 x = 2;
 console.log(y);
-var data1 = [0, 1, 2];
-var data2 = data1;
+let data1 = [0, 1, 2];
+let data2 = data1;
+console.log(data2);
 data1[0] = 5;
 console.log(data2);

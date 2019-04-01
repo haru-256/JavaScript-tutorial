@@ -1,10 +1,8 @@
 "use strict";
 
-var x = 1;
-var y = 2;
-var _ref = [y, x];
-x = _ref[0];
-y = _ref[1];
-
+let x = 1;
+let y = 2;
+console.log(x, y);
+[x, y] = [y, x]
 
 console.log(x, y);
